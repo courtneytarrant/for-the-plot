@@ -5,8 +5,8 @@ export default function Home() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2787&auto=format&fit=crop')",
-          backgroundPosition: "center 60%",
+          backgroundImage: "url('https://images.unsplash.com/photo-BcjdbyKWquw?q=80&w=2400&auto=format&fit=crop')",
+          backgroundPosition: "center 40%",
         }}
       />
 
