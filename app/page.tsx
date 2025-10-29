@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <main className="min-h-screen grid grid-cols-1 lg:grid-cols-2">
+    <main className="min-h-screen grid grid-cols-1 lg:grid-cols-3">
       {/* Left Column - Background Image */}
-      <div className="relative min-h-[400px] lg:min-h-screen">
+      <div className="relative min-h-[400px] lg:min-h-screen lg:col-span-1">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
@@ -15,7 +15,7 @@ export default function Home() {
       </div>
 
       {/* Right Column - Opt-in Form */}
-      <div className="bg-[#0f172a] flex items-center justify-center p-8 lg:p-16">
+      <div className="bg-[#0f172a] flex items-center justify-center p-8 lg:p-16 lg:col-span-2">
         <div className="w-full max-w-md">
           <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4">
             For The Plot
